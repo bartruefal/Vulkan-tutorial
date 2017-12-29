@@ -1,9 +1,9 @@
-vulkanpath=/home/nikita/VulkanSDK/1.0.49.0/x86_64
+vulkanpath=/home/bartruefal/VulkanSDK/1.0.65.0/x86_64
 libdir=${vulkanpath}/lib
 includedir=${vulkanpath}/include
 
 Name: vulkan
 Description: Vulkan loader and validation layers
-Version: 1.0.49.0
+Version: 1.0.65.0
 Libs: -L${libdir} -lvulkan
 Cflags: -I${includedir}
